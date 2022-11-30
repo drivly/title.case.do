@@ -1,27 +1,27 @@
-# Templates.do - Worker Templates API 
+# title.case.do - TitleCaseKeys Transformation API
 
-Explore the API at: <https://templates.do/api>
+Explore the API at: <https://title.case.do/api>
 
 ```json
 {
   "api": {
     "icon": "🚀",
-    "name": "templates.do",
-    "description": "Cloudflare Worker Template",
-    "url": "https://templates.do/api",
-    "type": "https://apis.do/templates",
+    "name": "title.case.do",
+    "description": "TitleCaseKeys Transformation API",
+    "url": "https://title.case.do/api",
+    "type": "https://apis.do/transformation",
     "endpoints": {
-      "listCategories": "https://templates.do/api",
-      "getCategory": "https://templates.do/:type"
+      "listCategories": "https://title.case.do/api",
+      "getCategory": "https://title.case.do/:type"
     },
-    "site": "https://templates.do",
-    "login": "https://templates.do/login",
-    "signup": "https://templates.do/signup",
-    "subscribe": "https://templates.do/subscribe",
-    "repo": "https://github.com/drivly/templates.do"
+    "site": "https://title.case.do",
+    "login": "https://title.case.do/login",
+    "signup": "https://title.case.do/signup",
+    "subscribe": "https://title.case.do/subscribe",
+    "repo": "https://github.com/drivly/title.case.do"
   }
   "examples": {
-    "listItems": "https://templates.do/worker"
+    "listItems": "https://title.case.do/worker"
   }
 }
 ```
